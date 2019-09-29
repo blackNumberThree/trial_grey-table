@@ -20,7 +20,6 @@ else
 	text.css("margin-left", "7%"),
 	//toggle float-box position
 	$(window).on('scroll', function () {
-		console.log(crutchBox.offset().top)
 		if( crutchBox.offset().top<709 ) 
 				{ floatBox.removeClass("absolute")}
 			 else 
